@@ -1,0 +1,72 @@
+footer{
+    background-color: $black;
+    color: $white;
+
+    .content{
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .cr{
+            .copyright{
+                margin-top: 25px;
+            }
+        }
+        .categorie{
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .infos{
+            .bureau{
+                margin-bottom: 40px;
+            }
+            .adresse{
+                margin-top: 15px;
+            }
+            .rs{
+
+                .liste-rs{
+                    margin-top: 15px;
+                    display: flex;
+    
+                    li{
+                        margin-right: 20px;
+    
+                        a{
+                            font-size: 25px;
+                            text-decoration: none;
+                            color: $white;
+                            transition: color 0.3s;
+
+                            &:hover{
+                                color: $yellow;
+                                transition: color 0.3s;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .nav{
+            li{
+                margin-bottom: 15px;
+                &:last-child{
+                    margin-bottom: 0;
+                }
+                a{
+                    text-decoration: none;
+                    color: $white;
+                    transition: color 0.3s;
+                    &:hover{
+                        color: $yellow;
+                        transition: color 0.3s;
+                    }
+                }
+            }
+        }
+
+    }
+}

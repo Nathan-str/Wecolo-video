@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devenez organisateur Wecolo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/reset.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/d2849bbb5c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="contain">
+          <div class="logo">
+            <img src="assets/images/logo.png" alt="Logo wecolo" />
+          </div>
+
+          <div class="button">
+            <div class="primary btn">
+              <a href="#">Devenir un organisateur</a>
+            </div>
+            <div class="secondary btn">
+              <a href="#">Connexion</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <div class="content">
+        <div class="left">
+          <h1 class="title">Rejoignez-nous</h1>
+          <h2 class="baseline">
+            boostez la visibilité de votre colonie de vacances
+          </h2>
+          <p class="description">
+            S’inscrire sur Wecolo c’est assurer le meilleur des référencement
+            pour son organisme. Nous attendons plus que vous !
+          </p>
+          <div class="button">
+            <div class="primary btn">
+              <a href="#">M'inscrire</a>
+            </div>
+            <div class="secondary2 btn">
+              <a href="#">En savoir plus</a>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="content-img">
+            <img
+              src="assets/images/imgHeader.png"
+              alt="enfants qui s'amusent"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="wave">
+      <img src="assets/images/forme.svg" />
+    </div>
+
+    <section id="avantages">
+      <div class="contenu-section">
+        <div class="round">
+          <img src="assets/images/blackRound.svg" />
+        </div>
+        <div class="content front">
+          <h2 class="title">Des avantages pour votre<br />communication</h2>
+          <ul class="avantages">
+            <li>
+              <div class="ico">
+                <img
+                  src="assets/images/organismeIco.png"
+                  alt="Icone organisme"
+                />
+              </div>
+              <div class="descr">
+                <h3>Faîtes connaître votre organismes</h3>
+              </div>
+            </li>
+            <li>
+              <div class="ico">
+                <img
+                  src="assets/images/publicationIco.png"
+                  alt="Icone organisme"
+                />
+              </div>
+              <div class="descr">
+                <h3>Publiez des offres de séjours</h3>
+              </div>
+            </li>
+            <li>
+              <div class="ico">
+                <img src="assets/images/gestionIco.png" alt="Icone organisme" />
+              </div>
+              <div class="descr">
+                <h3>Gérez l’ensemble des séjours</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="wave2">
+        <img src="assets/images/wave2.svg" />
+      </div>
+    </section>
+
+    <section id="video">
+      <section id="c-video">
+        <div class="buttonMiddlePlay">
+            <button><i class="fas fa-play-circle"></i></button>
+        </div>  
+        <video class="player" src="assets/video/wecolo.mp4" poster="assets/images/Template.png"></video>
+        <div class="controls">
+          <div class="yellowBar">
+            <div class="yellow"></div>
+          </div>
+          <div class="yellowButtons">
+            <button id="play-pause"></button>
+          </div>
+
+          <div class="buttonsLeft">
+            <button class="mute control-button">
+              <div class="slash"></div>
+              <i class="fas fa-volume-up"></i>
+            </button>
+
+            <input
+              type="range"
+              class="volume"
+              min="0"
+              max="1"
+              step="0.01"
+              value="1"
+            />
+
+            <button class="fullscreen control-button">
+              <i class="fas fa-expand"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="rejoindre">
+      <div class="content">
+        <h2 class="title">Rejoindre les organisateurs <br />Wecolo</h2>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="content">
+        <h2 class="title">
+          Questions fréquentes<br />
+          des utilisateurs
+        </h2>
+
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Pourquoi choisir WeColo pour accroître sa visibilité ?
+                </button>
+              </h5>
+            </div>
+
+            <div
+              id="collapseOne"
+              class="collapse"
+              aria-labelledby="headingOne"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                WeColo s’engage à accorder de la visibilité aux organisateurs de
+                séjours et aux colonies à travers une plateforme de
+                référencement. Choisir WeColo c’est augmenter ses chiffres en un
+                clic.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Pourquoi avoir créé WeColo ?
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseTwo"
+              class="collapse"
+              aria-labelledby="headingTwo"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Nous avons créé WeColo afin de venir en aide aux organisations
+                de colonies qui ont vu leur demande fortement diminuer ces
+                dernières années. Notre site référence une multitude de séjours
+                qui pourront être accessibles plus facilement grâce à des
+                filtres de recherches et donc mieux visibles par les
+                utilisateurs.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link collapsed"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Est-ce possible de modifier ou supprimer une offre de séjour ?
+                </button>
+              </h5>
+            </div>
+            <div
+              id="collapseThree"
+              class="collapse"
+              aria-labelledby="headingThree"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                Il est possible de modifier ou de supprimer une offre de séjour
+                mais sous certaines conditions. Consultez notre rubrique de
+                Conditions pour en savoir davantage.
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button
+                  class="btn btn-link"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                >
+                  Dans le cas d’une pandémie comme le Covid-19, quelles sont les
+                  conditions d’annulation ?
+                </button>
+              </h5>
+            </div>
+
+            <div
+              id="collapseFour"
+              class="collapse"
+              aria-labelledby="headingFour"
+              data-parent="#accordionExample"
+            >
+              <div class="card-body">
+                L’organisateur sera dans l’obligation de rembourser ou de
+                proposer un avoir si il y a un confinement sur votre zone de
+                résidence habituelle ou de la zone du centre de vacances, une
+                limitation kilométrique de déplacement autour de votre domicile
+                ou une fermeture administrative du centre de vacances.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta">
+      <h2 class="title">
+        N'attendez plus,<br />
+        devenez organisateur sur Wecolo
+      </h2>
+      <div class="button">
+        <div class="black btn">
+          <a href="#">C'est parti !</a>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="content">
+        <div class="cr">
+          <div class="logo">
+            <img src="assets/images/logo.png" alt="Logo Wecolo" />
+          </div>
+
+          <div class="copyright">© Wecolo - Tous droits réservés.</div>
+        </div>
+
+        <div class="infos">
+          <div class="bureau">
+            <h4 class="categorie">Bureau</h4>
+            <div class="adresse">
+              <span>5 Paravis Alan Turing, Paris, 75013</span>
+            </div>
+          </div>
+
+          <div class="rs">
+            <h4 class="categorie">Nous suivre</h4>
+            <ul class="liste-rs">
+              <li>
+                <a href="#" class="fab fa-facebook-f" title="Page facebook"></a>
+              </li>
+              <li>
+                <a href="#" class="fab fa-instagram" title="Page instagram"></a>
+              </li>
+              <li>
+                <a href="#" class="fab fa-twitter" title="Page twitter"></a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="sn fab fa-linkedin-in"
+                  title="Page linkedin"
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="nav">
+          <ul>
+            <li>
+              <a href="#" title="Catégorie comment ça marche"
+                >Comment ça marche ?</a
+              >
+            </li>
+            <li><a href="#" title="Catégorie avis">Avis</a></li>
+            <li><a href="#" title="Catégorie nos offres">Nos offres</a></li>
+            <li><a href="#" title="Catégorie contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="video.js"></script>
+  </body>
+</html>
